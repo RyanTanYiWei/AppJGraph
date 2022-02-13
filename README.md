@@ -4,7 +4,7 @@
 
 [App Demo](https://rtyw.shinyapps.io/jgraph/)
 
-(Demo App) Visualizing Topological Relationship of Complex Spaces
+<b>(Demo App) Visualizing Topological Relationship of Complex Spaces</b>
 
 My colleagues are very aware of my obsession with drawing networks of rooms and hallways to study spatial planning in complex buildings typologies (Convex Map/J-graph analysis). Hence, I was inspired to build a simple R shiny app that automates this process for me so that I can focus more on the analysis process. The input data demonstrated in the video is from my previous study on the game spaces in "Among Us".
 
