@@ -17,6 +17,3 @@ There are certainly other well-known network visualization softwares like Cytosc
 5) Adjustable Node and Label Size
 6) Node Colouring function (multiple entries) - identified based on names (RegEx) of the nodes
 7) Edge Colouring function - identified based on edge list column names
-
-I would love to hear any suggestions for future improvements.
-
