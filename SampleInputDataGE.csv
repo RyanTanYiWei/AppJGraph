@@ -1,0 +1,429 @@
+source,target ,weight,directed,FloorPlan,Staircase,BlockConn,Remarks,new,X,Y,status
+(A1) KG Lobby,(B1) Linkway,1,FALSE,A1,0,A1-B1,,,,,Old
+(A1) KG Lobby,(C1) Ext Corridor ,1,FALSE,A1,0,A1-C1,,,,,Old
+(A1) KG Lobby,(D1) Connecting Space,1,FALSE,A1,0,A1-D1,,,,,Old
+(A1) KG Lobby,(A1) KG Indoor Play Area,1,FALSE,A1,0,0,,,,,Old
+(A1) KG Lobby,(A1) Main Corridor,1,FALSE,A1,0,0,,,,,Old
+(A1) Main Corridor,(A1) Learner Pool ,1,FALSE,A1,0,0,Main,,,,Old
+(A1) Main Corridor,(A1) Reception Counter,1,FALSE,A1,0,0,,,,,Old
+(A1) Main Corridor,(A1) Changing Room,1,FALSE,A1,0,0,,,,,Old
+(A1) Main Corridor,"(A1) Corridor, Comp Pool",1,FALSE,A1,0,0,,,,,Old
+"(A1) Corridor, Comp Pool",(A1) Comp Pool,1,FALSE,A1,0,0,,,,,Old
+"(A1) Corridor, Comp Pool",(A1) Spectator Stand,1,FALSE,A1,0,0,,,,,Old
+(A1) Main Corridor,(A1) Core,1,FALSE,A1,0,0,,Y,,,Old
+(A1) Core,(A2) Core,1,FALSE,A1,A1-A2,0,,Y,,,Old
+(A2) Main Lobby L2,(B2) Linkway,1,FALSE,A2,0,A2-B2,,,,,Old
+(A2) Drop-Off/Entrance,(A2) Main Lobby L2,1,FALSE,A2,0,0,,,,,Old
+(A2) Main Lobby L2,(A2) Parents Cafe,1,FALSE,A2,0,0,,,,,Old
+(A2) Parents Cafe,(A2) Main Office 1,1,FALSE,A2,0,0,,,,,Old
+(A2) Parents Cafe,(A2) Main Office 2,1,FALSE,A2,0,0,,,,,Old
+(A2) Main Office 1,(A2) Main Office 2,1,FALSE,A2,0,0,,,,,Old
+(A2) Main Lobby L2,(A3) Main Lobby L3,1,FALSE,A2,A2-A3,0,,,,,Old
+(A2) Main Lobby L2,(A2) Core,1,FALSE,A2,0,0,,Y,,,Old
+(A2) Core,(A3) Core,1,FALSE,A2,A2-A3,0,,Y,,,Old
+(A3) Main Lobby L3,(B3) Corridor 2,1,FALSE,A3,0,A3-B3,,,,,Old
+(A3) Main Lobby L3,(A3) Corridor,1,FALSE,A3,0,0,,,,,Old
+(A3) Corridor,(A3) Main Corridor,1,FALSE,A3,0,0,,,,,Old
+(A3) Main Corridor,(A3) STEM Lab 1,1,FALSE,A3,0,0,,,,,Old
+(A3) Main Corridor,(A3) STEM Lab 2,1,FALSE,A3,0,0,,,,,Old
+(A3) Main Corridor,(A3) Creative Suite,1,FALSE,A3,0,0,,,,,Old
+(A3) Main Corridor,(A3) Sports Hall (Main Entrance),1,FALSE,A3,0,0,,,,,Old
+(A3) Main Corridor,(A3) Junior Library,1,FALSE,A3,0,0,,,,,Old
+(A3) Junior Library,(A3) Library Terrace,1,FALSE,A3,0,0,,,,,Old
+(A3) Main Lobby L3,(A4) Main Lobby L4,1,FALSE,A3,A3-A4,0,,,,,Old
+(A3) Main Lobby L3,(C3) Staff Corridor,1,FALSE,A3,0,A3-C3,,,,,Old
+(A3) Corridor,(A3) Core,1,FALSE,A3,0,0,,Y,,,Old
+(A3) Core,(A4) Core,1,FALSE,A3,A3-A4,0,,Y,,,Old
+(A4) Main Lobby L4,(A4) Corridor,1,FALSE,A4,0,0,,,,,Old
+(A4) Corridor,(A4) Auditorium,1,FALSE,A4,0,0,,,,,Old
+(A4) Corridor,(A4) Core,1,FALSE,A4,0,0,,Y,,,Old
+(B1) Linkway,(B1) Corridor 1,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 1,(B1) Pre-KG Classroom 3,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 1,(B1) Pre-KG Classroom 4,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 1,(B1) Pre-KG Classroom 5,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 1,(B1) Pre-KG Classroom 6,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 1,(B1) Reading Area,1,FALSE,B1,0,0,,,,,Old
+(B1) Reading Area,(B1) KG Library,1,FALSE,B1,0,0,,,,,Old
+(B1) Reading Area,(B1) Pre-KG Classroom 2,1,FALSE,B1,0,0,,,,,Old
+(B1) Reading Area,(B1) Corridor 2,1,FALSE,B1,0,0,,,,,Old
+(B1) Reading Area,(B1) Pre-KG Classroom 1,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 2,(B1) Pre-KG Classroom 7,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 2,(B1) Pre-KG Classroom 8,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 2,(B1) Pre-KG Classroom 9,1,FALSE,B1,0,0,,,,,Old
+(B1) Corridor 1,(B1) Core 1,1,FALSE,B1,0,0,,Y,,,Old
+(B1) Core 1,(B2) Core 1,1,FALSE,B1,B1-B2,0,,Y,,,Old
+(B1) Corridor 2,(B1) Core 2,1,FALSE,B1,0,0,,Y,,,Old
+(B1) Core 2,(B2) Core 2,1,FALSE,B1,B1-B2,0,,Y,,,Old
+(B1) Reading Area,(B2) Reading Area,1,FALSE,B1,B1-B2,0,,P,,,Old
+(B2) Linkway,(B2) Corridor 1,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 1,(B2) K1 Classroom 1,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 1,(B2) K1 Classroom 2,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 1,(B2) K1 Classroom 3,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 1,(B2) K1 Classroom 4,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 1,(B2) Reading Area,1,FALSE,B2,0,0,,,,,Old
+(B2) Reading Area,(B2) Staff Room,1,FALSE,B2,0,0,,,,,Old
+(B2) Reading Area,(B2) K1 Classroom 8,1,FALSE,B2,0,0,,,,,Old
+(B2) Reading Area,(B2) Corridor 2,1,FALSE,B2,0,0,,,,,Old
+(B2) Reading Area,(B2) K1 Classroom 9,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 2,(B2) K1 Classroom 7,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 2,(B2) K1 Classroom 5,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 2,(B2) K1 Classroom 6,1,FALSE,B2,0,0,,,,,Old
+(B2) Corridor 1,(B2) Core 1,1,FALSE,B2,0,0,,Y,,,Old
+(B2) Core 1,(B3) Core 1,1,FALSE,B2,B2-B3,0,,Y,,,Old
+(B2) Corridor 2,(B2) Core 2,1,FALSE,B2,0,0,,Y,,,Old
+(B2) Core 2,(B3) Core 2,1,FALSE,B2,B2-B3,0,,Y,,,Old
+(B2) Reading Area,(B3) Reading Area,1,FALSE,B2,B2-B3,0,,P,,,Old
+(B3) Corridor 1,(B3) K2 Classroom 1,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 1,(B3) K2 Classroom 2,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 1,(B3) K2 Classroom 3,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 1,(B3) K2 Classroom 4,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 1,(B3) Reading Area,1,FALSE,B3,0,0,,,,,Old
+(B3) Reading Area,(B3) Staff Room,1,FALSE,B3,0,0,,,,,Old
+(B3) Reading Area,(B3) K2 Classroom 8,1,FALSE,B3,0,0,,,,,Old
+(B3) Reading Area,(B3) Corridor 2,1,FALSE,B3,0,0,,,,,Old
+(B3) Reading Area,(B3) K2 Classroom 9,1,FALSE,B3,0,,,,,,Old
+(B3) Corridor 2,(B3) K2 Classroom 7,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 2,(B3) K2 Classroom 5,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 2,(B3) K2 Classroom 6,1,FALSE,B3,0,0,,,,,Old
+(B3) Corridor 1,(B3) Core 1,1,FALSE,B2,0,0,,Y,,,Old
+(B3) Corridor 2,(B3) Core 2,1,FALSE,B2,0,0,,Y,,,Old
+(C1) Open Corridor,(C1) Ext Corridor ,1,FALSE,C1,0,0,,,,,Old
+(C1) Ext Corridor,(C1) Open Corridor,1,FALSE,C1,0,0,,,,,Old
+(C1) Junior PlayArea,(C1) Open Corridor,1,FALSE,C1,0,0,,,,,Old
+(C1) Sky PlayCourt,(C1) Junior PlayArea,1,FALSE,C1,0,0,,,,,Old
+(C1) Reading Area,(C1) Sky Playcourt,1,FALSE,C1,0,0,,,,,Old
+(C1) Core 1,(C2) Core 1,1,FALSE,C1,C1-C2,0,,,,,Old
+(C1) Corridor 1,(C1) Core 1,1,FALSE,C1,0,0,,,,,Old
+(C1) Ext Corridor,(C2) Ext Corridor,1,FALSE,C1,C1-C2,0,,,,,Old
+(C1) Ext Corridor,(C1) Corridor 1,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Toilet,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Visual Art 1,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Visual Art 2,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Science Store,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Art & Craft Store,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Design 1,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Science 2,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 1,(C1) Reading Area,1,FALSE,C1,0,0,,,,,Old
+(C1) Reading Area,(C1) Corridor 2,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 2,(C1) Design 2,1,FALSE,C1,0,,,,,,Old
+(C1) Corridor 2,(C1) Science 1,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 2,(C1) Teacher's Store Room,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 2,(C1) Back Gate,1,FALSE,C1,0,0,,,,,Old
+(C1) Corridor 2,(C1) Core 2,1,FALSE,C1,0,0,,SSL,,,Old
+(C1) Core 2,(C2) Core 2,1,FALSE,C1,C1-C2,0,,,,,Old
+(C2) Core 1,(C3) Core 1,1,FALSE,C2,C2-C3,0,,,,,Old
+(C2) Corridor 1,(C2) Core 1,1,FALSE,C2,0,0,,,,,Old
+(C2) Staff Corridor,(C3) Staff Corridor,1,FALSE,C2,C2-C3,0,,,,,Old
+(C2) Staff Corridor,(C2) Curriculum Office,1,FALSE,C2,0,0,,,,,Old
+(C2) Staff Corridor,(C2) Level 2 Staff Room,1,FALSE,C2,0,0,,,,,Old
+(C2) Level 2 Staff Room,(C2) Pantry,1,FALSE,C2,0,0,,,,,Old
+(C2) Ext Corridor,(D2) Sky Bridge,1,FALSE,C2,C2-D2,0,,,,,Old
+(C2) Ext Corridor,(C2) Staff Corridor,1,FALSE,C2,0,0,,,,,Old
+(C2) Ext Corridor,(C2) Corridor 1,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 1,(C2) Toilet,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 1,(C2) Classroom 1,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 1,(C2) Classroom 2,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 1,(C2) Classroom 6,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 1,(C2) Classroom 7,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 1,(C2) Reading Area,1,FALSE,C2,0,0,,,,,Old
+(C2) Reading Area,(C2) Open Reading Area 1,1,FALSE,C2,0,0,,,,,Old
+(C2) Reading Area,(C2) Open Reading Area 2,1,FALSE,C2,0,0,,,,,Old
+(C2) Reading Area,(C2) Corridor 2,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 2,(C2) Classroom 3,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 2,(C2) Classroom 4,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 2,(C2) Classroom 5,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 2,(C2) Classroom 8,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 2,(C2) Classroom 9,1,FALSE,C2,0,0,,,,,Old
+(C2) Corridor 2,(C2) Core 2,1,FALSE,C2,0,0,,SSL,,,Old
+(C2) Core 2,(C3) Core 2,1,FALSE,C2,C2-C3,0,,,,,Old
+(C3) Core 1,(C4) Core 1,1,FALSE,C3,C3-C4,0,,,,,Old
+(C3) Corridor 1,(C3) Core 1,1,FALSE,C3,0,0,,,,,Old
+(C3) Staff Corridor,(C4) Staff Corridor,1,FALSE,C3,C3-C4,0,,,,,Old
+(C3) Staff Corridor,(C3) Level 3 Staff Room 1,1,FALSE,C3,0,0,,,,,Old
+(C3) Staff Corridor,(C3) Level 3 Staff Room 2,1,FALSE,C3,0,0,,,,,Old
+(C3) Level 3 Staff Room 2,(C3) Pantry,1,FALSE,C3,0,0,,,,,Old
+(C3) Ext Corridor,(C3) Staff Corridor,1,FALSE,C3,0,0,,,,,Old
+(C3) Ext Corridor,(C3) Corridor 1,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 1,(C3) Toilet,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 1,(C3) Classroom 1,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 1,(C3) Classroom 2,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 1,(C3) Classroom 6,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 1,(C3) Classroom 7,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 1,(C3) Reading Area,1,FALSE,C3,0,0,,,,,Old
+(C3) Reading Area,(C3) Open Reading Area 1,1,FALSE,C3,0,0,,,,,Old
+(C3) Reading Area,(C3) Open Reading Area 2,1,FALSE,C3,0,0,,,,,Old
+(C3) Reading Area,(C3) Corridor 2,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 2,(C3) Classroom 3,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 2,(C3) Classroom 4,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 2,(C3) Classroom 5,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 2,(C3) Classroom 8,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 2,(C3) Classroom 9,1,FALSE,C3,0,0,,,,,Old
+(C3) Corridor 2,(C3) Core 2,1,FALSE,C3,0,0,,SSL,,,Old
+(C3) Core 2,(C4) Core 2,1,FALSE,C3,C3-C4,0,,,,,Old
+(C4) Core 1,(C5) Core 1,1,FALSE,C4,C4-C5,0,,,,,Old
+(C4) Corridor 1,(C4) Core 1,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 1,(C4) Toilet,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 1,(C4) Classroom 1,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 1,(C4) Classroom 2,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 1,(C4) Classroom 6,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 1,(C4) Classroom 7,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 1,(C4) Reading Area,1,FALSE,C4,0,0,,,,,Old
+(C4) Reading Area,(C4) Open Reading Area 1,1,FALSE,C4,0,0,,,,,Old
+(C4) Reading Area,(C4) Open Reading Area 2,1,FALSE,C4,0,0,,,,,Old
+(C4) Reading Area,(C4) Corridor 2,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 2,(C4) Classroom 3,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 2,(C4) Classroom 4,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 2,(C4) Classroom 5,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 2,(C4) Classroom 8,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 2,(C4) Classroom 9,1,FALSE,C4,0,0,,,,,Old
+(C4) Corridor 2,(C4) Core 2,1,FALSE,C4,0,0,,SSL,,,Old
+(C4) Core 2,(C5) Core 2,1,FALSE,C4,C4-C5,0,,,,,Old
+(C5) Core 1,(C6) Core 1,1,FALSE,C5,C5-C6,0,,,,,Old
+(C5) Corridor 1,(C5) Core 1,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 1,(C5) Toilet,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 1,(C5) Classroom 1,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 1,(C5) Classroom 2,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 1,(C5) Classroom 6,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 1,(C5) Classroom 7,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 1,(C5) Reading Area,1,FALSE,C5,0,0,,,,,Old
+(C5) Reading Area,(C5) Open Reading Area 1,1,FALSE,C5,0,0,,,,,Old
+(C5) Reading Area,(C5) Open Reading Area 2,1,FALSE,C5,0,0,,,,,Old
+(C5) Reading Area,(C5) Corridor 2,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 2,(C5) Classroom 3,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 2,(C5) Classroom 4,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 2,(C5) Classroom 5,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 2,(C5) Classroom 8,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 2,(C5) Classroom 9,1,FALSE,C5,0,0,,,,,Old
+(C5) Corridor 2,(C5) Core 2,1,FALSE,C5,0,0,,SSL,,,Old
+(C5) Core 2,(C6) Core 2,1,FALSE,C5,C5-C6,0,,,,,Old
+(C6) Corridor 1,(C6) Core 1,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 1,(C6) Toilet,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 1,(C6) Classroom 1,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 1,(C6) Classroom 2,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 1,(C6) Classroom 6,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 1,(C6) Classroom 7,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 1,(C6) Reading Area,1,FALSE,C6,0,0,,,,,Old
+(C6) Reading Area,(C6) Open Reading Area 1,1,FALSE,C6,0,0,,,,,Old
+(C6) Reading Area,(C6) Open Reading Area 2,1,FALSE,C6,0,0,,,,,Old
+(C6) Reading Area,(C6) Corridor 2,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 2,(C6) Classroom 3,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 2,(C6) Classroom 4,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 2,(C6) Classroom 5,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 2,(C6) Classroom 8,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 2,(C6) Classroom 9,1,FALSE,C6,0,0,,,,,Old
+(C6) Corridor 2,(C6) Core 2,1,FALSE,C6,0,0,,SSL,,,Old
+(D1) Visitor Car Drop Off,(D1) Footpath,1,FALSE,D1.1,0,D1-C1,,,,,Old
+(D1) Visitor Car Drop Off,(D1) Connecting Space,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Connecting Space,(D1) Canteen Space 2,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Connecting Space,(D1) Main Entrance Corridor,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Connecting Space,(C1) Open Corridor,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Footpath,(D1) Carpark Corridor,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Carpark Corridor,(D1) Junior Music Suite Corridor,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Carpark Corridor,(D1) Canteen Space 1,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Drama Room,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Store,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Drama Room,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Music Room 1,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Music Room 2,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Music Room 3,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Practice Room A,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Practice Room B,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Practice Room C,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Practice Room D,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Practice Room E,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Junior Music Suite Corridor,(D1) Practice Room F,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Main Entrance Corridor,(D1) Junior Music Suite Corridor,1,FALSE,D1.1,0,D1-C1,,,,,Old
+(D1) Main Entrance Corridor,(D1) Canteen Space 2,1,FALSE,D1.1,D1-C2,D1-C2,,,,,Old
+(D1) Canteen Space 1,(D1) Staircase Space,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Canteen Space 2,(D1) Staircase Space,1,FALSE,D1.1,D2- C3,D2- C3,,,,,Old
+(D1) Staircase Space,(C1) Ext Corridor,1,FALSE,D1.1,0,0,,,,,Old
+(D1) Staircase Space,(C2) Ext Corridor,1,FALSE,D1.1,D1-C2,D1-C2,,,,,Old
+(D2) Football Field,(C3) Ext Corridor,1,FALSE,D2,D2- C3,D2- C3,,,,,Old
+(D2) Sky Bridge,(D2) Football Field,1,FALSE,D2,0,0,,,,,Old
+(C1) Science 2,(E1) Out Corridor 1,1,FALSE,E1,0,C1-E1,,,,,New
+(C1) Ext Corridor,(E1) Out Corridor 1,1,FALSE,E1,0,C1-E1,,,,,New
+(E1) Out Corridor 1,(E1) Drop Off Point,1,FALSE,E1,0,0,,,,,New
+(C1) Ext Corridor,(E1) Out Corridor 1-9,1,FALSE,E1,0,C1-E1,,,,,New
+(E1) Out Corridor 1-9,(E1) In Corridor 3,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 1-9,(E1) In Corridor 6.1,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 1-9,(E1) In Corridor 9,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 1-9,(E1) E-Sports Stairs,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 1,(E1) Out Corridor 1-4,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 1-4,(E1) Out Corridor 4-9,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 4-9,(E1) In Corridor 6.2,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 6.1,(E1) In Corridor 6.2,1,FALSE,E1,0,0,,,,,New
+(E1) Out Corridor 1,(E1) In Corridor 1-2,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 3,(E1) In Corridor 1-2,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 3,(E1) In Corridor 3-5,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 3-5,(E1) In Corridor 6.1,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 6.1,(E1) In Corridor 6-9,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 6-9,(E1) In Corridor 9,1,FALSE,E1,0,0,,,,,New
+(E1) In Corridor 6-9,(E1) Out Corridor 4-9,1,FALSE,E1,0,0,,,,,New
+(E1) E-Sports Stairs,(E1) Out Corridor 4-9,1,FALSE,E1,0,0,,,,,New
+(E1) E-Sports Stairs,(E2) E-Sports Arena,1,FALSE,E1,E1-E2,0,,,,,New
+(E1) Out Corridor 1,(E1) Music Rooms 1,1,FALSE,E1,0,0,,15A,Music Rooms 1,,New
+(E1) Out Corridor 1,(E1) Music Practice 1,1,FALSE,E1,0,0,,16A,Music Practice 1,,New
+(E1) Out Corridor 1,(E1) Music Rooms 2,1,FALSE,E1,0,0,,15B,Music Rooms 2,,New
+(E1) Out Corridor 1,(E1) Art store 1,1,FALSE,E1,0,0,,12A,Art store 1,,New
+(E1) Out Corridor 1,(E1) Art Rooms 1,1,FALSE,E1,0,0,,11A,Art Rooms 1,,New
+(E1) Out Corridor 1,(E1) Art Rooms 2,1,FALSE,E1,0,0,,11B,Art Rooms 2,,New
+(E1) Out Corridor 1,(E1) Reception,1,FALSE,E1,0,0,,2A,Reception,,New
+(E1) Out Corridor 1,(E1) MPH,1,FALSE,E1,0,0,,8A,MPH,,New
+(E1) In Corridor 3,(E1) Music Practice 2,1,FALSE,E1,0,0,,16B,Music Practice 2,,New
+(E1) In Corridor 3,(E1) Library,1,FALSE,E1,0,0,,9A,Library,,New
+(E1) In Corridor 3,(E1) Toilet,1,FALSE,E1,0,0,,35A,Toilet,,New
+(E1) In Corridor 3,(E1) MPH,1,FALSE,E1,0,0,,8A,MPH,,New
+(E1) In Corridor 3-5,(E1) Admin Rooms ,1,FALSE,E1,0,0,,4A,Admin Rooms ,,New
+(E1) In Corridor 6.1,(E1) Library 2,1,FALSE,E1,0,0,,9B,Library 2,,New
+(E1) In Corridor 6.1,(E1) Admin Rooms 2,1,FALSE,E1,0,0,,4B,Admin Rooms 2,,New
+(E1) In Corridor 6.1,(E1) Classroom – N 1,1,FALSE,E1,0,0,,27A,Classroom – N 1,,New
+(E1) In Corridor 6.1,(E1) Language Lab 1,1,FALSE,E1,0,0,,10A,Language Lab 1,,New
+(E1) In Corridor 6.1,(E1) Language Lab 2,1,FALSE,E1,0,0,,10B,Language Lab 2,,New
+(E1) In Corridor 6.1,(E1) Teacher Prep,1,FALSE,E1,0,0,,6A,Teacher Prep,,New
+(E1) In Corridor 6.1,(E1) Staff Room,1,FALSE,E1,0,0,,5A,Staff Room,,New
+(E1) In Corridor 6.2,(E1) Staff Office,1,FALSE,E1,0,0,,33A,Staff Office,,New
+(E1) In Corridor 6.2,(E1) Core,1,FALSE,E1,0,0,,1A,Corridor & Fit Allowance,,New
+(E1) Core,(E2) Core,1,FALSE,E1,E1-E2,0,,,,,New
+(E1) In Corridor 6.2,(E1) Wash Room,1,FALSE,E1,0,0,,34A,Wash Room,,New
+(E1) In Corridor 6.2,(E1) Kindergarten Reception,1,FALSE,E1,0,0,,42A,Kindergarten Reception,,New
+(E1) In Corridor 6.2,(E1) Classroom – N 2,1,FALSE,E1,0,0,,27B,Classroom – N 2,,New
+(E1) In Corridor 6.2,(E1) Classroom – N 3,1,FALSE,E1,0,0,,27C,Classroom – N 3,,New
+(E1) In Corridor 6-9,(E1) Staff Changing 1,1,FALSE,E1,0,0,,14A,Staff Changing 1,,New
+(E1) In Corridor 6-9,(E1) Staff Changing 2,1,FALSE,E1,0,0,,14B,Staff Changing 2,,New
+(E1) In Corridor 6-9,(E1) Student Changing Rooms 1,1,FALSE,E1,0,0,,13A,Student Changing Rooms 1,,New
+(E1) In Corridor 6-9,(E1) Student Changing Rooms 2,1,FALSE,E1,0,0,,13B,Student Changing Rooms 2,,New
+(E1) In Corridor 9,(E1) School Office,1,FALSE,E1,0,0,,3A,School Office,,New
+(E1) Out Corridor 1-4,(E1) Activity Space 1,1,FALSE,E1,0,0,,32A,Activity Space 1,,New
+(E1) Out Corridor 1-4,(E1) Activity Space 2,1,FALSE,E1,0,0,,32B,Activity Space 2,,New
+(E2) Core,(E3) Core,1,FALSE,E2,E2-E3,0,,,,,New
+(E2) Core,(E2) Corridor 6.2,1,FALSE,E2,0,0,,,,,New
+(E2) Core,(E2) Corridor 6.1,1,FALSE,E2,0,0,,,,,New
+(E2) Corridor 6.2,(E2) Corridor 6.1,1,FALSE,E2,0,0,,,,,New
+(E2) Corridor 6.2,(E2) Indoor Play Area,1,FALSE,E2,0,0,,31B,Indoor Play Area,(E2) Indoor Play Area,New
+(E2) Corridor 6.2,(E2) Classroom – PK 1,1,FALSE,E2,0,0,,28A,Classroom – PK 1,(E2) Classroom – PK 1,New
+(E2) Corridor 6.2,(E2) Classroom – PK 2,1,FALSE,E2,0,0,,28B ,Classroom – PK 2,(E2) Classroom – PK 2,New
+(E2) Corridor 6.2,(E2) Classroom – PK 3,1,FALSE,E2,0,0,,28C,Classroom – PK 3,(E2) Classroom – PK 3,New
+(E2) Corridor 6.1,(E2) Indoor Play Area,1,FALSE,E2,0,0,,31A,Indoor Play Area,(E2) Indoor Play Area,New
+(E2) Corridor 6.1,(E2) Classroom - K1 #1,1,FALSE,E2,0,0,,29A,Classroom - K1 #1,(E2) Classroom - K1 #1,New
+(E2) Corridor 6.1,(E2) Classroom - K1 #2,1,FALSE,E2,0,0,,29B,Classroom - K1 #2,(E2) Classroom - K1 #2,New
+(E2) Corridor 6.1,(E2) Classroom - K1 #3,1,FALSE,E2,0,0,,29C,Classroom - K1 #3,(E2) Classroom - K1 #3,New
+(E2) Corridor 6.1,(E2) Corridor 6-9,1,FALSE,E2,0,0,,,,,New
+(E2) Corridor 6-9,(E2) Classroom - K1 #4,1,FALSE,E2,0,0,,29D,Classroom - K1 #4,(E2) Classroom - K1 #4,New
+(E2) Corridor 6-9,(E2) Classroom - K2 #1,1,FALSE,E2,0,0,,30A,Classroom - K2 #1,(E2) Classroom - K2 #1,New
+(E2) Corridor 6-9,(E2) Classroom - K2 #2,1,FALSE,E2,0,0,,30B,Classroom - K2 #2,(E2) Classroom - K2 #2,New
+(E3) Core,(E3) Corridor 6.2,1,FALSE,E3,0,0,,,,,New
+(E3) Core,(E3) Basketball Court,1,FALSE,E3,0,0,,38,Basketball Court,(E3) Basketball Court,New
+(E3) Corridor 6.2,(E3) Classroom - K2 #1,1,FALSE,E3,0,0,,30A,Classroom - K2 #1,(E3) Classroom - K2 #1,New
+(E3) Corridor 6.2,(E3) Classroom - K2 #2,1,FALSE,E3,0,0,,30B,Classroom - K2 #2,(E3) Classroom - K2 #2,New
+(E1) E-Sports Stairs,(W1) Out Corridor M8,1,FALSE,W1,0,E1-W1,,,,,New
+(W1) Out Corridor M8,(W1) Out Corridor M-I,1,FALSE,W1,0,0,,,,,New
+(W1) Out Corridor M-I,(W1) In Corridor I-M,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor I-M,(W1) In Corridor J,1,FALSE,W1,0,0,,,,,New
+(W1) Out Corridor M-I,(W1) In Corridor J,1,FALSE,W1,0,0,,,,,New
+(W1) Out Corridor M-I,(W1) Out Corridor I-E,1,FALSE,W1,0,0,,,,,New
+(W1) Out Corridor I-E,(W1) In Corridor G-A,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor G-A,(W1) Sheltered Linkway,1,FALSE,W1,0,0,,,,,New
+(W1) Out Corridor I-E,(W1) Out Corridor F-A,1,FALSE,W1,0,0,,,,,New
+(W1) Out Corridor F-A,(W1) In Corridor D,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor D,(W1) In Corridor G-C,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor D,(W1) In Corridor C-A,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor J,(W1) In Corridor J-F,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor J-F,(W1) In Corridor G,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor G,(W1) In Corridor G-C,1,FALSE,W1,0,0,,,,,New
+(W1) In Corridor I-M,(W1) Classroom - G9 #1,1,FALSE,W1,0,0,,17A,Classroom - G9 #1,(W1) Classroom - G9 #1,New
+(W1) In Corridor I-M,(W1) Classroom - G9 #2,1,FALSE,W1,0,0,,17B,Classroom - G9 #2,(W1) Classroom - G9 #2,New
+(W1) In Corridor J,(W1) Core 1,1,FALSE,W1,0,0,,,,,New
+(W1) Core 1,(W2) Core 1,1,FALSE,W1,W1-W2,,,,,,New
+(W1) In Corridor J,(W1) Classroom - G9 #3,1,FALSE,W1,0,0,,17C,Classroom - G9 #3,(W1) Classroom - G9 #3,New
+(W1) In Corridor J-F,(W1) Classroom - G9 #4,1,FALSE,W1,0,0,,17D,Classroom - G9 #4,(W1) Classroom - G9 #4,New
+(W1) In Corridor J-F,(W1) Classroom - G9 #5,1,FALSE,W1,0,0,,17E,Classroom - G9 #5,(W1) Classroom - G9 #5,New
+(W1) In Corridor J-F,(W1) Toilet 1,1,FALSE,W1,0,0,,35A,Toilet 1,(W1) Toilet 1,New
+(W1) In Corridor G,(W1) Classroom - G9 #6,1,FALSE,W1,0,0,,17F,Classroom - G9 #6,(W1) Classroom - G9 #6,New
+(W1) In Corridor G-C,(W1) Classroom - G10 #1,1,FALSE,W1,0,0,,18A,Classroom - G10 #1,(W1) Classroom - G10 #1,New
+(W1) In Corridor G-C,(W1) Classroom - G9 #7,1,FALSE,W1,0,0,,17G,Classroom - G9 #7,(W1) Classroom - G9 #7,New
+(W1) In Corridor G-C,(W1) Canteen 1,1,FALSE,W1,0,0,,36A,Canteen 1,(W1) Canteen 1,New
+(W1) In Corridor D,(W1) Core 2,1,FALSE,W1,0,0,,,,,New
+(W1) Core 2,(W2) Core 2,1,FALSE,W1,W1-W2,,,,,,New
+(W1) In Corridor D,(W1) Science Labs 2,1,FALSE,W1,0,0,,21B,Science Labs 2,(W1) Science Labs 2,New
+(W1) In Corridor D,(W1) Classroom - G10 #2,1,FALSE,W1,0,0,,18B,Classroom - G10 #2,(W1) Classroom - G10 #2,New
+(W1) In Corridor C-A,(W1) Science Labs 1,1,FALSE,W1,0,0,,21A,Science Labs 1,(W1) Science Labs 1,New
+(W1) In Corridor C-A,(W1) Canteen 2,1,FALSE,W1,0,0,,36B,Canteen 2,(W1) Canteen 2,New
+(W1) In Corridor C-A,(W1) Netball Court,1,FALSE,W1,0,0,,39,Netball Court,(W1) Netball Court,New
+(W1) Out Corridor F-A,(W1) Netball Court,1,FALSE,W1,0,0,,39,Netball Court,(W1) Netball Court,New
+(W1) In Corridor G-A,(W1) General Office 1,1,FALSE,W1,0,0,,25A,General Office 1,(W1) General Office 1,New
+(W1) In Corridor G-A,(W1) General Office 2,1,FALSE,W1,0,0,,25B,General Office 2,(W1) General Office 2,New
+(W1) In Corridor G-A,(W1) General Office 3,1,FALSE,W1,0,0,,25C,General Office 3,(W1) General Office 3,New
+(W1) In Corridor G-A,(W1) General Office 4,1,FALSE,W1,0,0,,25D,General Office 4,(W1) General Office 4,New
+(W1) In Corridor G-A,(W1) Toilet 2,1,FALSE,W1,0,0,,35B,Toilet 2,(W1) Toilet 2,New
+(W1) In Corridor G-A,(W1) Core 3,1,FALSE,W1,0,0,,,,,New
+(W1) Core 3,(W2) Core 3,1,FALSE,W1,W1-W2,,,,,,New
+(W1) Sheltered Linkway,(D1) Visitor Car Drop Off,1,FALSE,W1,0,W1-D1,,,,,New
+(W2) In Corridor D,(W2) In Corridor G-C,1,FALSE,W2,0,0,,,,,New
+(W2) In Corridor D,(W2) In Corridor C-A,1,FALSE,W2,0,0,,,,,New
+(W2) In Corridor J,(W2) In Corridor J-F,1,FALSE,W2,0,0,,,,,New
+(W2) In Corridor J-F,(W2) In Corridor G,1,FALSE,W2,0,0,,,,,New
+(W2) In Corridor G,(W2) In Corridor G-C,1,FALSE,W2,0,0,,,,,New
+(W2) In Corridor J,(W2) In Corridor I-M,1,FALSE,W2,0,0,,,,,New
+(W2) In Corridor I-M,(W2) Classroom - G10 #1,1,FALSE,W2,0,0,,18A,Classroom - G10 #1,(W2) Classroom - G10 #1,New
+(W2) In Corridor I-M,(W2) Classroom - G10 #2,1,FALSE,W2,0,0,,18B,Classroom - G10 #2,(W2) Classroom - G10 #2,New
+(W2) In Corridor J,(W2) Core 1,1,FALSE,W2,0,0,,,,,New
+(W2) Core 1,(W3) Core 1,1,FALSE,W2,W2-W3,0,,,,,New
+(W2) In Corridor J,(W2) Classroom - G10 #3,1,FALSE,W2,0,0,,18C,Classroom - G10 #3,(W2) Classroom - G10 #3,New
+(W2) In Corridor J-F,(W2) Classroom - G10 #4,1,FALSE,W2,0,0,,18D,Classroom - G10 #4,(W2) Classroom - G10 #4,New
+(W2) In Corridor J-F,(W2) Classroom - G10 #5,1,FALSE,W2,0,0,,18E,Classroom - G10 #5,(W2) Classroom - G10 #5,New
+(W2) In Corridor J-F,(W2) Toilet,1,FALSE,W2,0,0,,35,Toilet,(W2) Toilet,New
+(W2) In Corridor G,(W2) Classroom - G11 #1,1,FALSE,W2,0,0,,19A,Classroom - G11 #1,(W2) Classroom - G11 #1,New
+(W2) In Corridor G-C,(W2) Classroom - G11 #2,1,FALSE,W2,0,0,,19B,Classroom - G11 #2,(W2) Classroom - G11 #2,New
+(W2) In Corridor G-C,(W2) Classroom - G11 #3,1,FALSE,W2,0,0,,19C,Classroom - G11 #3,(W2) Classroom - G11 #3,New
+(W2) In Corridor G-C,(W2) Classroom - G11 #4,1,FALSE,W2,0,0,,19D,Classroom - G11 #4,(W2) Classroom - G11 #4,New
+(W2) In Corridor D,(W2) Core 2,1,FALSE,W2,0,0,,,,,New
+(W2) Core 2,(W3) Core 2,1,FALSE,W2,W2-W3,0,,,,,New
+(W2) In Corridor D,(W2) Classroom - G11 #5,1,FALSE,W2,0,0,,19E,Classroom - G11 #5,(W2) Classroom - G11 #5,New
+(W2) In Corridor D,(W2) Science Labs,1,FALSE,W2,0,0,,21B,Science Labs,(W2) Science Labs,New
+(W2) In Corridor C-A,(W2) Classroom - G11 #6,1,FALSE,W2,0,0,,19F,Classroom - G11 #6,(W2) Classroom - G11 #6,New
+(W2) In Corridor C-A,(W2) Science Labs,1,FALSE,W2,0,0,,21A,Science Labs,(W2) Science Labs,New
+(W2) In Corridor G-A,(W2) Core 3,1,FALSE,W2,0,0,,1,,,New
+(W2) Core 3,(W3) Core 3,1,FALSE,W2,W2-W3,0,,,,,New
+(W2) In Corridor G-A,(W2) 6th Form Home Base,1,FALSE,W2,0,0,,24,6th Form Home Base,(W2) 6th Form Home Base,New
+(W2) In Corridor G-A,(W2) General Office,1,FALSE,W2,0,0,,25,General Office,(W2) General Office,New
+(W2) In Corridor G-A,(W2) Indoor Play Area,1,FALSE,W2,0,0,,31,Indoor Play Area,(W2) Indoor Play Area,New
+(W3) In Corridor D,(W3) In Corridor G-C,1,FALSE,W3,0,0,,,,,New
+(W3) In Corridor D,(W3) In Corridor C-A,1,FALSE,W3,0,0,,,,,New
+(W3) In Corridor J,(W3) In Corridor J-F,1,FALSE,W3,0,0,,,,,New
+(W3) In Corridor J-F,(W3) In Corridor G,1,FALSE,W3,0,0,,,,,New
+(W3) In Corridor G,(W3) In Corridor G-C,1,FALSE,W3,0,0,,,,,New
+(W3) In Corridor J,(W3) In Corridor I-M,1,FALSE,W3,0,0,,,,,New
+(W3) In Corridor I-M,(W3) Classroom - G12 #1,1,FALSE,W3,0,0,,20A,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor J,(W3) Core 1,1,FALSE,W3,0,0,,1,,,New
+(W3) In Corridor J,(W3) Classroom - G12 #2,1,FALSE,W3,0,0,,20B,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor J-F,(W3) Classroom - G12 #2,1,FALSE,W3,0,0,,20C,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor J-F,(W3) Classroom - G12 #3,1,FALSE,W3,0,0,,20D,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor J-F,(W3) Toilet,1,FALSE,W3,0,0,,35,Toilet,(W3) Toilet,New
+(W3) In Corridor G,(W3) Classroom - G12 #4,1,FALSE,W3,0,0,,20E,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor G-C,(W3) Classroom - G12 #5,1,FALSE,W3,0,0,,20F,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor G-C,(W3) Classroom - G11 #1,1,FALSE,W3,0,0,,19A,Classroom - G11,(W3) Classroom - G11,New
+(W3) In Corridor G-C,(W3) Classroom - G12 #6,1,FALSE,W3,0,0,,20G,Classroom - G12,(W3) Classroom - G12,New
+(W3) In Corridor D,(W3) Core 2,1,FALSE,W3,0,0,,1,,,New
+(W3) Core 2,(W4) Core 2,1,FALSE,W3,W3-W4,0,,,,,New
+(W3) In Corridor D,(W3) Computer Lab,1,FALSE,W3,0,0,,22,Computer Lab,(W3) Computer Lab,New
+(W3) In Corridor D,(W3) Science Labs 1,1,FALSE,W3,0,0,,21A,Science Labs,(W3) Science Labs,New
+(W3) In Corridor C-A,(W3) Science Labs 2,1,FALSE,W3,0,0,,21B,Science Labs,(W3) Science Labs,New
+(W3) In Corridor C-A,(W3) Additional Laboratories,1,FALSE,W3,0,0,,44,Additional Laboratories,(W3) Additional Laboratories,New
+(W3) In Corridor G-A,(W3) Core 3,1,FALSE,W3,0,0,,1,,,New
+(W3) In Corridor G-A,(W3) Senior Library,1,FALSE,W3,0,0,,23,Senior Library,(W3) Senior Library,New
+(W4) In Corridor G,(W4) In Corridor G-C,1,FALSE,W4,0,0,,,,,New
+(W4) In Corridor G,(W4) In Corridor H-G,1,FALSE,W4,0,0,,,,,New
+(W4) In Corridor D,(W4) In Corridor G-C,1,FALSE,W4,0,0,,,,,New
+(W4) In Corridor D,(W4) In Corridor C-A,1,FALSE,W4,0,0,,,,,New
+(W4) In Corridor H-G,(W4) Additional Classrooms 1,1,FALSE,W4,0,0,,7A,Additional Classrooms 1,(W4) Additional Classrooms 1,New
+(W4) In Corridor H-G,(W4) Additional Classrooms 2,1,FALSE,W4,0,0,,7B,Additional Classrooms 2,(W4) Additional Classrooms 2,New
+(W4) In Corridor H-G,(W4) Toilet,1,FALSE,W4,0,0,,35,Toilet,(W4) Toilet,New
+(W4) In Corridor G,(W4) Tennis Court,1,FALSE,W4,0,0,,37,Tennis Court,(W4) Tennis Court,New
+(W4) In Corridor G-C,(W4) Sports Rooms 1,1,FALSE,W4,0,0,,43A,Sports Rooms 1,(W4) Sports Rooms 1,New
+(W4) In Corridor G-C,(W4) Sports Rooms 2,1,FALSE,W4,0,0,,43B,Sports Rooms 2,(W4) Sports Rooms 2,New
+(W4) In Corridor G-C,(W4) Additional Classrooms 3,1,FALSE,W4,0,0,,7C,Additional Classrooms 3,(W4) Additional Classrooms 3,New
+(W4) In Corridor D,(W4) Core 2,1,FALSE,W4,0,0,,1,,,New
+(W4) In Corridor D,(W4) Additional Classrooms 4,1,FALSE,W4,0,0,,7D,Additional Classrooms 4,(W4) Additional Classrooms 4,New
+(W4) In Corridor D,(W4) Additional Laboratories,1,FALSE,W4,0,0,,44,Additional Laboratories,(W4) Additional Laboratories,New
+(W4) In Corridor C-A,(W4) Additional Classrooms 5,1,FALSE,W4,0,0,,7E,Additional Classrooms 5,(W4) Additional Classrooms 5,New
+(W4) In Corridor C-A,(W4) Additional Classrooms 6,1,FALSE,W4,0,0,,7F,Additional Classrooms 6,(W4) Additional Classrooms 6,New
