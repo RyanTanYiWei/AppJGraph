@@ -2,8 +2,9 @@
 
 [![Video Demo](http://img.youtube.com/vi/Sts_uZadjAs/0.jpg)](http://www.youtube.com/watch?v=Sts_uZadjAs "JGraph App Demo (RShiny)")
 
-[App Demo Alternative](https://appjgraph.herokuapp.com/)
-[App Demo Alternative](https://rtyw.shinyapps.io/jgraph/)
+[App Demo](https://appjgraph.herokuapp.com/)
+
+[App Demo Mirror](https://rtyw.shinyapps.io/jgraph/)
 
 <b>(Demo App) Visualizing Topological Relationship of Complex Spaces</b>
 
