@@ -37,6 +37,15 @@ Number <- function(input, output, session){}
 # Define server logic for random distribution app ----
 server <- function(input, output, session) {
   
+  output$downloadData <- downloadHandler(
+    filename = function() {
+      "SampleInputDataAU.csv"
+    },
+    content = function(file) {
+      file.copy("sample input/SampleInputDataAU.csv", file)
+    }
+  )
+  
   # observe changes in "numInputs", and create corresponding number of inputs
   observeEvent(input$numInputs, {
     

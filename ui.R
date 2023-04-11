@@ -46,6 +46,9 @@ ui <- fluidPage(
     # Sidebar panel for inputs -------------------------------------------------------------------
     sidebarPanel(
       
+      
+      downloadButton("downloadData", "Download Sample"),
+      br(""),
       # Input: Select a file ---- (1)
       fileInput("file1", "Upload Edgelist CSV File",
                 multiple = FALSE,
